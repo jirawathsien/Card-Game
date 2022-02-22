@@ -13,18 +13,18 @@ public class Card : MonoBehaviour
       cardSprites.color = cardColor;
    }
    
-   private void OnTriggerEnter2D(Collider2D other)
+   private void OnTriggerEnter(Collider other)
    {
-      if (other.CompareTag("Card"))
+      if (other.CompareTag("Player"))
       {
          isTouchingCard = true;
          ChangeCardAlpha(1f);
       }
    }
 
-   private void OnTriggerExit2D(Collider2D other)
+   private void OnTriggerExit(Collider other)
    {
-      if (other.CompareTag("Card"))
+      if (other.CompareTag("Player"))
       {
          isTouchingCard = false;
          ChangeCardAlpha(0.2f);

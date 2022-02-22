@@ -4,8 +4,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float xClampPos, zClampPos;
 
-    private Vector2 moveVector;
+    private Vector3 moveVector;
     
     private void Update()
     {
@@ -15,21 +16,16 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovement()
     {
         float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+        float z = Input.GetAxisRaw("Vertical");
 
-        moveVector = new Vector2(x, y);
-        
-        if (x != 0f)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(-x), 1f, 1f);
-        }
+        moveVector = new Vector3(x, 0, z);
         
         Transform transform1;
         (transform1 = transform).Translate(moveVector * (moveSpeed * Time.deltaTime));
 
         Vector3 clampPos = transform1.position;
-        clampPos.x = Mathf.Clamp(clampPos.x, -8.35f, 8.35f);
-        clampPos.y = Mathf.Clamp(clampPos.y, -4.35f, 4.35f);
+        clampPos.x = Mathf.Clamp(clampPos.x, -xClampPos, xClampPos);
+        clampPos.z = Mathf.Clamp(clampPos.z, -zClampPos, zClampPos);
         transform.position = clampPos;
     }
 

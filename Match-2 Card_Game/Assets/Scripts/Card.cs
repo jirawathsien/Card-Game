@@ -1,7 +1,7 @@
-using System;
 using DG.Tweening;
 using UnityEngine;
 
+[SelectionBase]
 public class Card : MonoBehaviour
 {
    [SerializeField] private SpriteRenderer cardFrontSprite;

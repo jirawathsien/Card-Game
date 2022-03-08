@@ -10,12 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashTime;
     [SerializeField] private float dashSpeed;
     
-    
     private Vector3 moveVector;
     private CharacterController characterController;
     
-
-
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -24,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         HandleMovement();
-      
     }
 
     private void HandleMovement()
@@ -58,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
             characterController.Move(moveVector * (Time.deltaTime * dashSpeed));
             yield return null;
         }
-        
         dashTrail.SetActive(false);
     }
 

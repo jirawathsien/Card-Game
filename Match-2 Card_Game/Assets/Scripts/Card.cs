@@ -9,6 +9,9 @@ public class Card : MonoBehaviour
    private bool isTouchingCard;
    private bool isFlipped;
    float x = 0;
+
+   public int thisCardIndex;
+   public bool hasRotated;
    
    private void Update()
    {
@@ -30,8 +33,28 @@ public class Card : MonoBehaviour
 
          if (x > 0.49f)
          {
+            hasRotated = true;
             cardFrontSprite.gameObject.SetActive(false);
             cardBackSprite.SetActive(true);
+         }
+      }).OnComplete(()=>{
+      {
+         CardManager.instance.CheckMatch();
+      }});
+   }
+
+   public void FlipBack()
+   {
+      transform.DORotate(new Vector3(0f, 0f, 0f), 1f).OnUpdate(() =>
+      {
+         x += Time.deltaTime;
+
+         if (x > 0.49f)
+         {
+            hasRotated = false;
+            isFlipped = false;
+            cardFrontSprite.gameObject.SetActive(true);
+            cardBackSprite.SetActive(false);
          }
       });
    }

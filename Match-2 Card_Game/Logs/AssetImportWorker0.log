@@ -15,11 +15,11 @@ D:/Unity/Upwork/Card-Game/Match-2 Card_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64458
+57649
 Successfully changed project path to: D:/Unity/Upwork/Card-Game/Match-2 Card_Game
 D:/Unity/Upwork/Card-Game/Match-2 Card_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,149 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001988 seconds.
+Registered in 0.001821 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.555 seconds
+- Completed reload, in  0.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (555ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (522ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (440ms)
+		EndReloadAssembly (409ms)
 			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003759 seconds.
+Registered in 0.002748 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.154 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (887ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (337ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (188ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.6 MB.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 123.0 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2659.
-Total: 3.137100 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.762100 ms  DeleteObjects: 0.065700 ms)
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 2761.
+Total: 2.914600 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.524100 ms  DeleteObjects: 0.088100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 110.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 2.846600 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.109600 ms MarkObjects: 2.501100 ms  DeleteObjects: 0.035200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,464 +191,1249 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites
-  artifactKey: Guid(d1d54ecd277fece4ab296b5b880bb29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(d1d54ecd277fece4ab296b5b880bb29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77a8157624f0b78db893df5c7967315') in 0.008569 seconds 
-  Import took 0.011848 seconds .
+  path: Assets/Isometric Pack 3d/Props
+  artifactKey: Guid(b374ef49fa23df947984da0965e87539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props using Guid(b374ef49fa23df947984da0965e87539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba352403090ed913bb7600cdc613a22') in 0.008211 seconds 
+  Import took 0.012500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.548884 seconds.
-  path: Assets/Sprites/Square.png
-  artifactKey: Guid(31dce3b4ec59ced4695c7df0713fd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Square.png using Guid(31dce3b4ec59ced4695c7df0713fd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f8958c6003a58f4bd5e400de5e19cc') in 0.100103 seconds 
-  Import took 0.103653 seconds .
+  Time since last request: 4.748901 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups
+  artifactKey: Guid(934b6ba4e54d41f43866275ffd79c8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups using Guid(934b6ba4e54d41f43866275ffd79c8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeffc804a8855635f1a9ba1cd554e01f') in 0.005972 seconds 
+  Import took 0.009766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.241188 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1A.prefab
+  artifactKey: Guid(ce1b1c89cc01b594b97ffd660fb7409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1A.prefab using Guid(ce1b1c89cc01b594b97ffd660fb7409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91a98480f5ab755b3cbdec451d72919') in 0.447308 seconds 
+  Import took 0.450583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group8.prefab
+  artifactKey: Guid(571cb4769a0758a448df6d9ca95d74d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group8.prefab using Guid(571cb4769a0758a448df6d9ca95d74d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdb2c70b2138a5219c6e7493fce857a') in 0.045606 seconds 
+  Import took 0.049216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1G.prefab
+  artifactKey: Guid(fa5dd789b08e81f4789a775275bdb886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1G.prefab using Guid(fa5dd789b08e81f4789a775275bdb886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666edaaab77844970cb1c6462605bdad') in 0.018159 seconds 
+  Import took 0.021174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp1B.prefab
+  artifactKey: Guid(d2ae4bf402931b746a8cfd0251887bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp1B.prefab using Guid(d2ae4bf402931b746a8cfd0251887bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7072897d221dc96d7f7e140e10c3f8ac') in 0.016941 seconds 
+  Import took 0.021274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group12.prefab
+  artifactKey: Guid(9eff8432f7e91f747aa26e4ba5da8ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group12.prefab using Guid(9eff8432f7e91f747aa26e4ba5da8ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c674f1c73106fb4dd2b1618c95c1021') in 0.024382 seconds 
+  Import took 0.028135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group18.prefab
+  artifactKey: Guid(f6de1ead2100ff449826646f4ba714ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group18.prefab using Guid(f6de1ead2100ff449826646f4ba714ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f6228733cd2ca5510fabbcde8cdf4c') in 0.026701 seconds 
+  Import took 0.030224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group4.prefab
+  artifactKey: Guid(4c7ceff7e23273c448a573b873524e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group4.prefab using Guid(4c7ceff7e23273c448a573b873524e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b1dd79e93bfbf9a33bf4c01b2dc1bd') in 0.022752 seconds 
+  Import took 0.026622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group1.prefab
+  artifactKey: Guid(c7026f84f0efb0c4f8c16219cec4fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group1.prefab using Guid(c7026f84f0efb0c4f8c16219cec4fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60852fcb67f348da73adc3caf4e25e') in 0.020791 seconds 
+  Import took 0.023999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group6.prefab
+  artifactKey: Guid(3a2b71b8c1ea4ec4b98ac1a478152aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group6.prefab using Guid(3a2b71b8c1ea4ec4b98ac1a478152aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c193feb8011a31396c13888bea91838a') in 0.040738 seconds 
+  Import took 0.045102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group5B.prefab
+  artifactKey: Guid(8d65d8c93f95a0541aafaa56d0f4d7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group5B.prefab using Guid(8d65d8c93f95a0541aafaa56d0f4d7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a4266a7a7a0cf509ac615e27f05c4') in 0.023999 seconds 
+  Import took 0.027228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group15.prefab
+  artifactKey: Guid(6f85cd9c034beb54989925e943767eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group15.prefab using Guid(6f85cd9c034beb54989925e943767eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6f74ed280193692ae43a1efbb58c9a') in 0.020191 seconds 
+  Import took 0.023398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group14.prefab
+  artifactKey: Guid(0ad75599c956f914f898acca06e671a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group14.prefab using Guid(0ad75599c956f914f898acca06e671a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151f6ca277bda36d943d146a78d9f163') in 0.025267 seconds 
+  Import took 0.028874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group2.prefab
+  artifactKey: Guid(40baa84a4036b164a9295b866770fa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group2.prefab using Guid(40baa84a4036b164a9295b866770fa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75eb10f42b3f7a2922ca521e624f692') in 0.022280 seconds 
+  Import took 0.025696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp2B.prefab
+  artifactKey: Guid(c49cf5058a51f1843b00f959e5ce8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp2B.prefab using Guid(c49cf5058a51f1843b00f959e5ce8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae74155cdd1fe2bbe90df37682c1162') in 0.015121 seconds 
+  Import took 0.018459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1B.prefab
+  artifactKey: Guid(34fc11007dd664445839345dabfa32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1B.prefab using Guid(34fc11007dd664445839345dabfa32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2570f440dca60047148066e887ab12') in 0.013841 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group2B.prefab
+  artifactKey: Guid(e79ada0cc67e4064281bc5e51b6c44c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group2B.prefab using Guid(e79ada0cc67e4064281bc5e51b6c44c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cff11b7c62118f822c6555732d5902') in 0.022806 seconds 
+  Import took 0.026103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1C.prefab
+  artifactKey: Guid(f1cf9d4c16db5814186372f8f65230e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1C.prefab using Guid(f1cf9d4c16db5814186372f8f65230e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b840e6f1b10376685f7aeec0df5e088') in 0.178542 seconds 
+  Import took 0.181776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group10.prefab
+  artifactKey: Guid(bc0638f128c03e34badb15f9ffefe693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group10.prefab using Guid(bc0638f128c03e34badb15f9ffefe693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6d4fb0a0c00fcf38b7be8a884e158b') in 0.025699 seconds 
+  Import took 0.029017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1D.prefab
+  artifactKey: Guid(4bec1eb3193ed614090bf83dcb1f065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1D.prefab using Guid(4bec1eb3193ed614090bf83dcb1f065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b859c35956f098af5ab0fd02a838599e') in 0.017299 seconds 
+  Import took 0.020642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1D.prefab
+  artifactKey: Guid(897d49910ff48fe4eb0da31f3da60015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1D.prefab using Guid(897d49910ff48fe4eb0da31f3da60015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e32eb1dd53dd55682bb5b259dcf92fd') in 0.017758 seconds 
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp2A.prefab
+  artifactKey: Guid(7f03f76b283f6254d952739e09ec7eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp2A.prefab using Guid(7f03f76b283f6254d952739e09ec7eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544ae75fba304451eec5680046b75b53') in 0.014701 seconds 
+  Import took 0.017882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base2.prefab
+  artifactKey: Guid(c3659f78d83530d43986f72601759888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base2.prefab using Guid(c3659f78d83530d43986f72601759888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823233652ededf31af854bce27b9c6c7') in 0.015952 seconds 
+  Import took 0.019553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group1B.prefab
+  artifactKey: Guid(f3bf10a4b983bfe469347f6269463051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group1B.prefab using Guid(f3bf10a4b983bfe469347f6269463051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1af7ccaa1128d1b21c9ad26dea21703') in 0.022401 seconds 
+  Import took 0.025881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group11.prefab
+  artifactKey: Guid(89ce5f03bb7a4834888869029f3baddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group11.prefab using Guid(89ce5f03bb7a4834888869029f3baddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca8b8db5d4e48d8f6c40a428b326d33') in 0.024067 seconds 
+  Import took 0.027193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group9.prefab
+  artifactKey: Guid(ea004253203f29c469338a62dd5300f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group9.prefab using Guid(ea004253203f29c469338a62dd5300f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69be58a30e3a69a4501ffc038fc2faa6') in 0.027039 seconds 
+  Import took 0.030630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1B.prefab
+  artifactKey: Guid(d352f4f06d07fd3459784047f561d52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1B.prefab using Guid(d352f4f06d07fd3459784047f561d52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baeac1be9281f6a5d86ce79c7baa6d2') in 0.015813 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base3.prefab
+  artifactKey: Guid(ceddf42f20c07fe45b2168e4eb424968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base3.prefab using Guid(ceddf42f20c07fe45b2168e4eb424968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149794638647856445a6c9500df276ef') in 0.018800 seconds 
+  Import took 0.022428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group5.prefab
+  artifactKey: Guid(33b9b90eff2d78e45b87ff0f853f030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group5.prefab using Guid(33b9b90eff2d78e45b87ff0f853f030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81c17b3175860fd62d469c972630e66') in 0.022433 seconds 
+  Import took 0.025884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group16.prefab
+  artifactKey: Guid(0417e0fc1c0de834090cb7efe71bbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group16.prefab using Guid(0417e0fc1c0de834090cb7efe71bbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4585c022334a30061fb82b561411ae1') in 0.025884 seconds 
+  Import took 0.029531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1H.prefab
+  artifactKey: Guid(5e4811e72c3dbd24c9acc95d4854d923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1H.prefab using Guid(5e4811e72c3dbd24c9acc95d4854d923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab268b9218d0d29481d44cc60d7b9d1') in 0.014525 seconds 
+  Import took 0.017484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1A.prefab
+  artifactKey: Guid(07f2f187abe2eb64bbb4268cc2fd029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water1A.prefab using Guid(07f2f187abe2eb64bbb4268cc2fd029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4e22e266708711931193cfbc384126') in 0.015954 seconds 
+  Import took 0.019695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water2.prefab
+  artifactKey: Guid(d1bead792a627254fad5b05a1a2137ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Water2.prefab using Guid(d1bead792a627254fad5b05a1a2137ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809bb55565219e71a4eac3ebbba989d') in 0.014885 seconds 
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group3.prefab
+  artifactKey: Guid(aa820389659508a4cb70ad93fc5be994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group3.prefab using Guid(aa820389659508a4cb70ad93fc5be994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fce148a4faea33951a57a634640024') in 0.021753 seconds 
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group7.prefab
+  artifactKey: Guid(3b696e8511750f948aec5d68f690eef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group7.prefab using Guid(3b696e8511750f948aec5d68f690eef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8786d3395c928fb2fdb3b2ba0980705') in 0.030349 seconds 
+  Import took 0.034304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1E.prefab
+  artifactKey: Guid(17ecdf1bc3647904a91505881b12613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1E.prefab using Guid(17ecdf1bc3647904a91505881b12613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3820487625a3a9865be2254cec91094') in 0.013883 seconds 
+  Import took 0.017044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group3B.prefab
+  artifactKey: Guid(420a2f2579ad3d24291b60a644973f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group3B.prefab using Guid(420a2f2579ad3d24291b60a644973f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61863b6e7001764086a68a95e5473db') in 0.022025 seconds 
+  Import took 0.025553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1F.prefab
+  artifactKey: Guid(1f90acf78d6f2e7499410b3b61a07cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1F.prefab using Guid(1f90acf78d6f2e7499410b3b61a07cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b491b8ef7a9d5defd9c2c43eb29aa6') in 0.015148 seconds 
+  Import took 0.018585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group13.prefab
+  artifactKey: Guid(67d6488f617ca15468224cad168f7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group13.prefab using Guid(67d6488f617ca15468224cad168f7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c524ee90636efc545a906307898c60d0') in 0.023980 seconds 
+  Import took 0.028042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group17.prefab
+  artifactKey: Guid(0a770175c891bc045b654210896b0416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group17.prefab using Guid(0a770175c891bc045b654210896b0416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e024f0ede64c43493472ffe78cce3') in 0.024940 seconds 
+  Import took 0.028349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp1A.prefab
+  artifactKey: Guid(45d2e12f2cd796147bfa23bdacec8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Ramp1A.prefab using Guid(45d2e12f2cd796147bfa23bdacec8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0515e4590a36783973565b81e32fa211') in 0.015169 seconds 
+  Import took 0.018244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group4B.prefab
+  artifactKey: Guid(f92018aefd977d74db22468eb806ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group4B.prefab using Guid(f92018aefd977d74db22468eb806ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe074187dc50ce49f872f40b988bbf9') in 0.019543 seconds 
+  Import took 0.023556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base4.prefab
+  artifactKey: Guid(ab49b01eef5ab084eb12dada39cbb13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base4.prefab using Guid(ab49b01eef5ab084eb12dada39cbb13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaa083cde0db538b948891f174211aa') in 0.092307 seconds 
+  Import took 0.095429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1C.prefab
+  artifactKey: Guid(a5bf50f8fc223644e9d24bc78b18c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Base1C.prefab using Guid(a5bf50f8fc223644e9d24bc78b18c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a17435ae9486e064bae81e6645ad3a') in 0.017403 seconds 
+  Import took 0.020855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.203914 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Mine1.mat
+  artifactKey: Guid(af76a6e404ca17d4bbca15525e983a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Mine1.mat using Guid(af76a6e404ca17d4bbca15525e983a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b132b7459577822f5bcccae6df30e2ee') in 0.050429 seconds 
+  Import took 0.054866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile2.mat
+  artifactKey: Guid(3c1560d144a9d424cb0e6c4460806f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile2.mat using Guid(3c1560d144a9d424cb0e6c4460806f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73688bc7bed1ead7be56ae55a46e846') in 0.016424 seconds 
+  Import took 0.019841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile1_Brick.mat
+  artifactKey: Guid(dba0a3a660c05bb4e82c6f6449efd789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile1_Brick.mat using Guid(dba0a3a660c05bb4e82c6f6449efd789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c0f08219d47938faeedb6dc404875') in 0.178568 seconds 
+  Import took 0.181642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile3_Brick.mat
+  artifactKey: Guid(c10c5711dc1829c43a82ca81500c74aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile3_Brick.mat using Guid(c10c5711dc1829c43a82ca81500c74aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e9a89a4bb2ed9634ce2e8d8798936b') in 0.012476 seconds 
+  Import took 0.015787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b.mat
+  artifactKey: Guid(b3bcb14ac5b9a474d958e0f2b6b526eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b.mat using Guid(b3bcb14ac5b9a474d958e0f2b6b526eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb7a87405eaea7610d731d21009b1e0') in 0.012598 seconds 
+  Import took 0.015755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_02.mat
+  artifactKey: Guid(fdc09f9b6fa675e4d9bb5992436540a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_02.mat using Guid(fdc09f9b6fa675e4d9bb5992436540a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a36827df9ac604a709a3c15a1b8bfc') in 0.012704 seconds 
+  Import took 0.015938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile4.mat
+  artifactKey: Guid(34540a6cd0c758c4fae4bc68308ceb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile4.mat using Guid(34540a6cd0c758c4fae4bc68308ceb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4074177f16a61e1d7b6b60fdf8ea9dfc') in 0.012242 seconds 
+  Import took 0.015619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile3.mat
+  artifactKey: Guid(65777fed3e827654abff6488f3ed20e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile3.mat using Guid(65777fed3e827654abff6488f3ed20e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cc2732081df93ed1560fd791af8c6c') in 0.014480 seconds 
+  Import took 0.017819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/props.mat
+  artifactKey: Guid(7656296e5391c6d42bdd188c86c59212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/props.mat using Guid(7656296e5391c6d42bdd188c86c59212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692f66cb7e7defc7ab390742c5da2741') in 0.012289 seconds 
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b_alpha.mat
+  artifactKey: Guid(41d1ef3c8997c3244a3cae2b8c8e479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b_alpha.mat using Guid(41d1ef3c8997c3244a3cae2b8c8e479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e13856eb980a04b7445e9d9bef0fb0') in 0.013216 seconds 
+  Import took 0.016883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01_alpha.mat
+  artifactKey: Guid(9eb659bf69c439044990a33f8878a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01_alpha.mat using Guid(9eb659bf69c439044990a33f8878a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd121c7d8fec0c4b4588396226264280') in 0.012884 seconds 
+  Import took 0.016389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Stairs.mat
+  artifactKey: Guid(7ddc9eab6744c034ea393a651535dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Stairs.mat using Guid(7ddc9eab6744c034ea393a651535dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8217fcdf427e83072a772d957d83713b') in 0.011983 seconds 
+  Import took 0.015398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/mushrooms.tif.mat
+  artifactKey: Guid(a477a7d615d425348a3cba8a3c3db722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/mushrooms.tif.mat using Guid(a477a7d615d425348a3cba8a3c3db722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68fd0b4a6738c9a75419e3a9f65d60a') in 0.014111 seconds 
+  Import took 0.017372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Stones_01.mat
+  artifactKey: Guid(33d2341e76bbd1d4997a0a3121b39a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Stones_01.mat using Guid(33d2341e76bbd1d4997a0a3121b39a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75d786fbd452920ee6228df74e11f02') in 0.186810 seconds 
+  Import took 0.190208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01.mat
+  artifactKey: Guid(f1728f80fc86a8048a9a7c2b28a07b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01.mat using Guid(f1728f80fc86a8048a9a7c2b28a07b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004b6d38267ed2fa8e2610a87b528135') in 0.012366 seconds 
+  Import took 0.015491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile_clear.mat
+  artifactKey: Guid(31f98800e86b0b147a20ea7da768e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile_clear.mat using Guid(31f98800e86b0b147a20ea7da768e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a535602f3f29aa4f6c8d500fce21353e') in 0.011518 seconds 
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Physics.mat
+  artifactKey: Guid(11c7d0815910c30409bb607a7e281609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Physics.mat using Guid(11c7d0815910c30409bb607a7e281609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29edc319e9ec6fe8eeec9101b9e00363') in 0.010113 seconds 
+  Import took 0.013287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile1.mat
+  artifactKey: Guid(c88dc8a461c2ce64facd636febb36502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile1.mat using Guid(c88dc8a461c2ce64facd636febb36502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248857b567b8301ed2a7bea5ffed0999') in 0.011712 seconds 
+  Import took 0.014943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Plants1.mat
+  artifactKey: Guid(3af6118b3673f044e9ae17884f21e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Plants1.mat using Guid(3af6118b3673f044e9ae17884f21e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a695f9ecf1ebf956f1415fc9b17b5') in 0.012419 seconds 
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624170 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Tile1.tif
+  artifactKey: Guid(7f48a3a08ae39d9429d9eb2ba02baa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Tile1.tif using Guid(7f48a3a08ae39d9429d9eb2ba02baa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b60c2d73ce4b8654e53ba7631a950e1') in 0.047045 seconds 
+  Import took 0.050742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Tile_UP.tif
+  artifactKey: Guid(c0274a80bf602464bad287f6d52f2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Tile_UP.tif using Guid(c0274a80bf602464bad287f6d52f2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0ac1c078731612d2c8327cd0a746ce') in 0.010477 seconds 
+  Import took 0.013617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.081500 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Shield.fbx
+  artifactKey: Guid(bc9790f3b43bd3d49b0552e454e80dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Shield.fbx using Guid(bc9790f3b43bd3d49b0552e454e80dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac923c4f33cd58a449c6c069b4eafa7c') in 0.046081 seconds 
+  Import took 0.049596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Shooting_shield.fbx
+  artifactKey: Guid(c613eb2281327a645aebe6ae2c4ade30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Shooting_shield.fbx using Guid(c613eb2281327a645aebe6ae2c4ade30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2c05395dc3babb69c95a0a7b3a0612') in 0.027511 seconds 
+  Import took 0.030559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Tower.fbx
+  artifactKey: Guid(26751a9a22ea37a4386aa159efca0f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Tower.fbx using Guid(26751a9a22ea37a4386aa159efca0f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01f76e91e4478f56450cfccd7b94693') in 0.034381 seconds 
+  Import took 0.038049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Fence1_2.fbx
+  artifactKey: Guid(0ce4049f0698e4b45b88f93778a6f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Fence1_2.fbx using Guid(0ce4049f0698e4b45b88f93778a6f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2338d6d93ce0266fdf2c34b85cf3cf') in 0.022173 seconds 
+  Import took 0.025512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest1B.fbx
+  artifactKey: Guid(31c9c0d588a9616469dc6250248cf25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest1B.fbx using Guid(31c9c0d588a9616469dc6250248cf25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55752d092c812730ffa76691c249f1f4') in 0.022954 seconds 
+  Import took 0.026341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Fence1_1.fbx
+  artifactKey: Guid(265ec717c677f1348b92a1cfa403d3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Fence1_1.fbx using Guid(265ec717c677f1348b92a1cfa403d3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b347c7b0b76656b4bc0f2e97fad5bbf') in 0.018043 seconds 
+  Import took 0.021534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp2_tent.fbx
+  artifactKey: Guid(b6b0d98ffc072894a9717517ef6a080a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp2_tent.fbx using Guid(b6b0d98ffc072894a9717517ef6a080a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae779740b265fd8253781b359f68f31') in 0.028206 seconds 
+  Import took 0.031450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest3B.fbx
+  artifactKey: Guid(032f45d28b836654a9398de3c4ab1fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest3B.fbx using Guid(032f45d28b836654a9398de3c4ab1fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3cf7e076388e9a88e42f8f198e94ef') in 0.018792 seconds 
+  Import took 0.022468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest2B.fbx
+  artifactKey: Guid(cc0383ea0c36b1f4483d3af6bfa742d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest2B.fbx using Guid(cc0383ea0c36b1f4483d3af6bfa742d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd831080c6e4b5c0b5bdef1dbdcf6366f') in 0.024951 seconds 
+  Import took 0.028693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp2_Fierplace1.fbx
+  artifactKey: Guid(c219e78867d7bd343bb03ada114a624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp2_Fierplace1.fbx using Guid(c219e78867d7bd343bb03ada114a624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49d0102813a5878abd86514976bbfa1') in 0.022634 seconds 
+  Import took 0.026281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest1A.fbx
+  artifactKey: Guid(784900e3e624021488b95eb1d11de6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest1A.fbx using Guid(784900e3e624021488b95eb1d11de6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeda8a93f6bd1247dbd49d5674d0636') in 0.049930 seconds 
+  Import took 0.053328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Fence1_3.fbx
+  artifactKey: Guid(3fa3d84343ae7ca438703c365d213471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Fence1_3.fbx using Guid(3fa3d84343ae7ca438703c365d213471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e224fdc124fe9b5a2141b3eb609ab493') in 0.016464 seconds 
+  Import took 0.019451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp2_Fierplace2.fbx
+  artifactKey: Guid(9310087429ce7ff4b8f7bcca2d7d88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp2_Fierplace2.fbx using Guid(9310087429ce7ff4b8f7bcca2d7d88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189117f89711e61a17437f692d79167f') in 0.019836 seconds 
+  Import took 0.023291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/GoldBag1.fbx
+  artifactKey: Guid(ba13d99a49fedfc4ead406336566caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/GoldBag1.fbx using Guid(ba13d99a49fedfc4ead406336566caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6570e40b851bbe1d5f2a11016be67f82') in 0.021418 seconds 
+  Import took 0.024880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest4B.fbx
+  artifactKey: Guid(15841f495a2b9c341ace5de5287b175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest4B.fbx using Guid(15841f495a2b9c341ace5de5287b175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa249fa9d1bf6659cd898d1c061de4') in 0.019561 seconds 
+  Import took 0.023259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Dungeon_Passage1.fbx
+  artifactKey: Guid(6a15b9241cfb0224db6f06f224724274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Dungeon_Passage1.fbx using Guid(6a15b9241cfb0224db6f06f224724274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44d49889eef872437734531f6576a92') in 0.021056 seconds 
+  Import took 0.024472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest4A.fbx
+  artifactKey: Guid(6b27179f69838964cb0399b126922c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest4A.fbx using Guid(6b27179f69838964cb0399b126922c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb10243ec1610b47db9589346de2d20') in 0.050146 seconds 
+  Import took 0.053413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest3A.fbx
+  artifactKey: Guid(11c322408ded0c74d883257c7f31135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest3A.fbx using Guid(11c322408ded0c74d883257c7f31135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31cd5909c56ecd8269f6d129dc292f3') in 0.045734 seconds 
+  Import took 0.048649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Brick1.fbx
+  artifactKey: Guid(d56409abb6dc2e849b3a74a77528813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Brick1.fbx using Guid(d56409abb6dc2e849b3a74a77528813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f926abef9f8e61f0a71ba64d4c5dbc3') in 0.018478 seconds 
+  Import took 0.021582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade2.fbx
+  artifactKey: Guid(a6614a6595aa42047a910ddb8467b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade2.fbx using Guid(a6614a6595aa42047a910ddb8467b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1358d1b8cae7d43bd3a5fd6daa47a179') in 0.018567 seconds 
+  Import took 0.021839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Bucket.fbx
+  artifactKey: Guid(f8bcacac55b5bf4418be5cec9b470465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Bucket.fbx using Guid(f8bcacac55b5bf4418be5cec9b470465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d5a847c3b0990ff2b0bb1f95a0ad2') in 0.022319 seconds 
+  Import took 0.026053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Bridge2.fbx
+  artifactKey: Guid(64000b59b273031409bafecddb72c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Bridge2.fbx using Guid(64000b59b273031409bafecddb72c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f0a368050e54eca90f6f75c054b26') in 0.016236 seconds 
+  Import took 0.019701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Bench2.fbx
+  artifactKey: Guid(1136a2c3a1893b746a88ee752bb1be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Bench2.fbx using Guid(1136a2c3a1893b746a88ee752bb1be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba48e859ded325411dd532c824d8f2') in 0.018455 seconds 
+  Import took 0.021519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Barrier1.fbx
+  artifactKey: Guid(152fa43b80110f34285a682cc2cd3e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Barrier1.fbx using Guid(152fa43b80110f34285a682cc2cd3e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eba728e7d679686f52fc055465fd90c') in 0.018831 seconds 
+  Import took 0.022276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Bridge1.fbx
+  artifactKey: Guid(5bc39d66fe01a5440ba6f3127242bf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Bridge1.fbx using Guid(5bc39d66fe01a5440ba6f3127242bf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ae9828837be4ce6d78f037fb9e7497') in 0.020671 seconds 
+  Import took 0.024104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade1.fbx
+  artifactKey: Guid(e896bb40592011e4b9625c1870f771e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade1.fbx using Guid(e896bb40592011e4b9625c1870f771e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8279ffed4887bbfbf0d2a5ef30a5021') in 0.021180 seconds 
+  Import took 0.024449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Brick2.fbx
+  artifactKey: Guid(115598309e3597d4c83becaa302b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Brick2.fbx using Guid(115598309e3597d4c83becaa302b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbe13d817735c85ae72a44c419baa07') in 0.017758 seconds 
+  Import took 0.021205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Brick3.fbx
+  artifactKey: Guid(414172209481c7f46b29a292c4613cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Brick3.fbx using Guid(414172209481c7f46b29a292c4613cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e42293e4640bc91388662e9cc07aaaf') in 0.020864 seconds 
+  Import took 0.024412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Bench1.fbx
+  artifactKey: Guid(c1a5518efe7d6464d9cfd2e1fa196a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Bench1.fbx using Guid(c1a5518efe7d6464d9cfd2e1fa196a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369db5d1bd020c2d7afaffe22fe86d23') in 0.016951 seconds 
+  Import took 0.020293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Brick4.fbx
+  artifactKey: Guid(63cbdb9763e127d469aac726817a85d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Brick4.fbx using Guid(63cbdb9763e127d469aac726817a85d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab13a52ee897362322527219f416f8a') in 0.020351 seconds 
+  Import took 0.024197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest2A.fbx
+  artifactKey: Guid(cf47b032e868d9c449eebf0c4318a854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest2A.fbx using Guid(cf47b032e868d9c449eebf0c4318a854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff13a223acfa82919d86f9385b0f7f') in 0.042771 seconds 
+  Import took 0.045991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208630 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Banner1.fbx
+  artifactKey: Guid(7f77a547b8d8346468371dc31d6a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Banner1.fbx using Guid(7f77a547b8d8346468371dc31d6a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbc01cee30dad8e54f610efea132ff4') in 0.179027 seconds 
+  Import took 0.182421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Banner2.fbx
+  artifactKey: Guid(529238ff185d4aa469e6dbb869455423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Banner2.fbx using Guid(529238ff185d4aa469e6dbb869455423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f030c47c6915bbde3700c4be7c97c128') in 0.018277 seconds 
+  Import took 0.021667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Banner_Pole.fbx
+  artifactKey: Guid(c1f53ccad2af0a14986e144dda737db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Banner_Pole.fbx using Guid(c1f53ccad2af0a14986e144dda737db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c6038af023e96cfffdec7d3ce5ba78') in 0.016046 seconds 
+  Import took 0.020676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Banner4.fbx
+  artifactKey: Guid(b85e96664f0995e4ab14b324587ab83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Banner4.fbx using Guid(b85e96664f0995e4ab14b324587ab83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e645ad1fc6ab2207a359cbd9b8fcfb7') in 0.018015 seconds 
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Banner3.fbx
+  artifactKey: Guid(6a6e1485e937048458147098eabe64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Banner3.fbx using Guid(6a6e1485e937048458147098eabe64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302c0f3714c0355e143a8ea3b37f54da') in 0.022203 seconds 
+  Import took 0.025633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.600872 seconds.
+  path: Assets/Isometric Pack 3d/Sky
+  artifactKey: Guid(336755ce9a3cd3a489b5427568019988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky using Guid(336755ce9a3cd3a489b5427568019988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89e279761fddbf092ab55c62e5889f5') in 0.005698 seconds 
+  Import took 0.010292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050641 seconds.
+  path: Assets/Isometric Pack 3d/Sky/Sky1.mat
+  artifactKey: Guid(aa5b6f5a646878f47a786335b2a9ba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky/Sky1.mat using Guid(aa5b6f5a646878f47a786335b2a9ba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae5052230b23b621cb89fc1dc0c24ff') in 0.014010 seconds 
+  Import took 0.017574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Isometric Pack 3d/Sky/Sky3.mat
+  artifactKey: Guid(fe3d82ac88f07c64f9097903bac3fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky/Sky3.mat using Guid(fe3d82ac88f07c64f9097903bac3fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae22ed9ad124a88f1a5cd1cdd87591') in 0.016810 seconds 
+  Import took 0.020596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Isometric Pack 3d/Sky/Sky5.mat
+  artifactKey: Guid(b95f7208180dbb241824815f3912d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky/Sky5.mat using Guid(b95f7208180dbb241824815f3912d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4883731f7480964024d898edff91da0') in 0.018653 seconds 
+  Import took 0.022131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Isometric Pack 3d/Sky/Sky4.mat
+  artifactKey: Guid(b1abc641f4176b74eb50d60b75449d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky/Sky4.mat using Guid(b1abc641f4176b74eb50d60b75449d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba5662c9776fa69f12349b0b2a8f430') in 0.078863 seconds 
+  Import took 0.082039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Isometric Pack 3d/Sky/Sky2.mat
+  artifactKey: Guid(65c86782ab324ff4b8c4361695012686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Sky/Sky2.mat using Guid(65c86782ab324ff4b8c4361695012686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83127db4d1a28122cbd607464dc4755') in 0.013308 seconds 
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.381307 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_02_alpha.mat
+  artifactKey: Guid(2989a567e368010408f0626b3eff8b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_02_alpha.mat using Guid(2989a567e368010408f0626b3eff8b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6007bcc824e6826d0bfa5d79e7922263') in 0.022021 seconds 
+  Import took 0.027921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Isometric Pack 3d/Water/Textures/Water.mat
+  artifactKey: Guid(3f2c1f07b8ac5aa46878e9e0fb0a5201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Water/Textures/Water.mat using Guid(3f2c1f07b8ac5aa46878e9e0fb0a5201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5d315ca6944736413a900de6d1bca1') in 0.025080 seconds 
+  Import took 0.029945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_04.mat
+  artifactKey: Guid(ed2a80d95f9a04e4aa135e5c5376d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_04.mat using Guid(ed2a80d95f9a04e4aa135e5c5376d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a0982028a1d8aa81f4f70cce221121') in 0.017338 seconds 
+  Import took 0.021233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Water.mat
+  artifactKey: Guid(dcda72abd7573a54fb4f9f41ebd352a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Water.mat using Guid(dcda72abd7573a54fb4f9f41ebd352a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9382f8313f53b51b9886a9902d3f9302') in 0.009368 seconds 
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn_alpha.mat
+  artifactKey: Guid(6f7221aa3bc273b439e3daa01a349ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn_alpha.mat using Guid(6f7221aa3bc273b439e3daa01a349ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1332709a42a17fdfb328d19420436c0b') in 0.014022 seconds 
+  Import took 0.017526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_alpha.mat
+  artifactKey: Guid(69c7a8f37373eaa46a869474a66688b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_alpha.mat using Guid(69c7a8f37373eaa46a869474a66688b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd54fc6ebdfcf69c6154ab09023ec65') in 0.013591 seconds 
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_03.mat
+  artifactKey: Guid(032998f2f814eba4abdac20f4ea524b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_03.mat using Guid(032998f2f814eba4abdac20f4ea524b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd0c7113824ba6a4c25cf4cd760057a') in 0.014724 seconds 
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_04_alpha.mat
+  artifactKey: Guid(a7f6f4f0f591b2f4eb4b64b2c1abed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_04_alpha.mat using Guid(a7f6f4f0f591b2f4eb4b64b2c1abed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2bf9109754ae1e2211c2573216c2d7') in 0.198104 seconds 
+  Import took 0.201631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn.mat
+  artifactKey: Guid(89fe42567d9d40746a45f29535ee65fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn.mat using Guid(89fe42567d9d40746a45f29535ee65fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcb1695607970ee6da594931b84d1b8') in 0.014046 seconds 
+  Import took 0.017432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Waterfall1.mat
+  artifactKey: Guid(6bfd8404b7eeafa4e98681071c664b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Waterfall1.mat using Guid(6bfd8404b7eeafa4e98681071c664b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b656de9403a5c2bcf05dd815dff305') in 0.165913 seconds 
+  Import took 0.169183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192434 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Smoke1.mat
+  artifactKey: Guid(f7f08a6330359f64a943e6bf5086e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Smoke1.mat using Guid(f7f08a6330359f64a943e6bf5086e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7949518e911f0861b9423044adf0c47') in 0.039760 seconds 
+  Import took 0.043646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547631 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars.mat
+  artifactKey: Guid(92ee58c3f3395234aa0333363dc5a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars.mat using Guid(92ee58c3f3395234aa0333363dc5a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d58aff53447603adf731a9ea561f24') in 0.159660 seconds 
+  Import took 0.163194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb 2_red.mat
+  artifactKey: Guid(fccf24328a619b841ae4a6af26716bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb 2_red.mat using Guid(fccf24328a619b841ae4a6af26716bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce7cbf19080f6dda06a3f05a3d520b') in 0.041921 seconds 
+  Import took 0.044670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.061888 seconds 
+  Import took 0.064748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars_red.mat
+  artifactKey: Guid(5916c8d578551a24e8386e725be477e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars_red.mat using Guid(5916c8d578551a24e8386e725be477e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ea2aa2d8f7d298e4ec1017d4138a35') in 0.014705 seconds 
+  Import took 0.017632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Ripples.mat
+  artifactKey: Guid(b939cc05d0bf61546852b9701324615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Ripples.mat using Guid(b939cc05d0bf61546852b9701324615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fb85789b1e67a7304e7261d85ab675') in 0.031855 seconds 
+  Import took 0.035367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Lamp.mat
+  artifactKey: Guid(0e6693e48c33fff4d93b791ed3f2ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Lamp.mat using Guid(0e6693e48c33fff4d93b791ed3f2ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33309f9c3bc5bd9b32ca3015ceb2c275') in 0.011843 seconds 
+  Import took 0.015373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Banner.mat
+  artifactKey: Guid(3ed3d6ae1d1e0804a8209fe3bf4b91cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Banner.mat using Guid(3ed3d6ae1d1e0804a8209fe3bf4b91cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f8b1dc9ccd4be87a3a02f46b562a2') in 0.012636 seconds 
+  Import took 0.015871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Dungeon_passage.mat
+  artifactKey: Guid(630ef1cac4f22d74598b00fb49a50e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Dungeon_passage.mat using Guid(630ef1cac4f22d74598b00fb49a50e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe306b41b24c56a1b331c461c8e51c13') in 0.010907 seconds 
+  Import took 0.014151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.042547 seconds 
+  Import took 0.045632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Fire1.mat
+  artifactKey: Guid(fd8022388311e9649aa9d21b729dd8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Fire1.mat using Guid(fd8022388311e9649aa9d21b729dd8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c485fc40d3aad0ca1dbe6b5de8537') in 0.030639 seconds 
+  Import took 0.033657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.065270 seconds 
+  Import took 0.068332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Fire2_alpha_clip.mat
+  artifactKey: Guid(c191807879c7f6043a8e5b12e3353537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Fire2_alpha_clip.mat using Guid(c191807879c7f6043a8e5b12e3353537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d33109eea0bde63d5e7e1e37f0917e') in 0.009703 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Glow2.mat
+  artifactKey: Guid(1658bbbfa05abcb428fd5bf9a62111a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Glow2.mat using Guid(1658bbbfa05abcb428fd5bf9a62111a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b567f9ec47edee06029fa8b54f09596e') in 0.029400 seconds 
+  Import took 0.032954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Graveyard.mat
+  artifactKey: Guid(228ad842bcd4a7f49a97f82830d794ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Graveyard.mat using Guid(228ad842bcd4a7f49a97f82830d794ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ee8d2f83a421bc27c48a6cbb72c644') in 0.016612 seconds 
+  Import took 0.019840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Fire1_alpha_clip.mat
+  artifactKey: Guid(7b3b67b66c9974e46aabb5e746bf88e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Fire1_alpha_clip.mat using Guid(7b3b67b66c9974e46aabb5e746bf88e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a28bb31a71a26838d5fc4e0addc45c') in 0.010648 seconds 
+  Import took 0.013955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Fence_01.mat
+  artifactKey: Guid(1857ca53d8dd3e746b57d65ab2cb16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Fence_01.mat using Guid(1857ca53d8dd3e746b57d65ab2cb16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8e26bb2c8d576d9e4743c0814ed385') in 0.011332 seconds 
+  Import took 0.014348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.034110 seconds 
+  Import took 0.037618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb.mat
+  artifactKey: Guid(39159df8797446342a5b6afcb35f3cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb.mat using Guid(39159df8797446342a5b6afcb35f3cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce82bc506e5a4c322701cf3e851c251') in 0.009424 seconds 
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Camp_01.mat
+  artifactKey: Guid(3cf5518a736ba8c48a987720414c2801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Camp_01.mat using Guid(3cf5518a736ba8c48a987720414c2801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6718f5bb9146af34c83487db1fcebb') in 0.012007 seconds 
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/camp_02.mat
+  artifactKey: Guid(78c12a12d61f82b4f8258a2297d23172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/camp_02.mat using Guid(78c12a12d61f82b4f8258a2297d23172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f5afc97987063f37cab7391712726') in 0.014282 seconds 
+  Import took 0.017577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Graveyard_alpha.mat
+  artifactKey: Guid(8b3632238a572c84fb6f6a51647becc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Graveyard_alpha.mat using Guid(8b3632238a572c84fb6f6a51647becc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d77ae83bf75fe8f8a7aeaa652c6058c') in 0.013713 seconds 
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Bridge1.mat
+  artifactKey: Guid(ab3a13a27b1cde84b9ced06c0cd21e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Bridge1.mat using Guid(ab3a13a27b1cde84b9ced06c0cd21e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148251ce48274976d14ebb87fc6741ad') in 0.013833 seconds 
+  Import took 0.017438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Glow1.mat
+  artifactKey: Guid(ea9bf33d1ad7868418a224412549fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Glow1.mat using Guid(ea9bf33d1ad7868418a224412549fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603f7a2dd957fe85509d33a754c74a4b') in 0.010827 seconds 
+  Import took 0.014314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.019103 seconds 
+  Import took 0.022762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Candleflame.mat
+  artifactKey: Guid(05dfdfed8ed5f2640a2edd5f8d8cbf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Candleflame.mat using Guid(05dfdfed8ed5f2640a2edd5f8d8cbf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb85202a368ada1783f8b2ce5c4cb52') in 0.030902 seconds 
+  Import took 0.034078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Grass_Flowers1.mat
+  artifactKey: Guid(ea898058c3e7aa54590da8e0a3b1a2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Grass_Flowers1.mat using Guid(ea898058c3e7aa54590da8e0a3b1a2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7d71de1c93c121a2904cb9437d14e3') in 0.011180 seconds 
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Glow3.mat
+  artifactKey: Guid(0bff21fdc66d10f4ca2a7d0a362b179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Glow3.mat using Guid(0bff21fdc66d10f4ca2a7d0a362b179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8d4ea7581179e45551ad7c0c8042f6') in 0.010765 seconds 
+  Import took 0.013939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Grid.mat
+  artifactKey: Guid(2acc5029fb04b5841b3942147779a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Grid.mat using Guid(2acc5029fb04b5841b3942147779a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64589f59e703efdd5bbda611a619b484') in 0.044368 seconds 
+  Import took 0.047759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Bridge2.mat
+  artifactKey: Guid(1d7233f51c44c954397fb6cf7e05b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Bridge2.mat using Guid(1d7233f51c44c954397fb6cf7e05b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5e255afadc79a6670bbe2ddae6c8d5') in 0.010559 seconds 
+  Import took 0.013614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/chests.mat
+  artifactKey: Guid(a57e40f57ddb7be428e7151f3adc5e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/chests.mat using Guid(a57e40f57ddb7be428e7151f3adc5e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe5d32c33bf1f23f5d57b3e5570ef50') in 0.012529 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb 1.mat
+  artifactKey: Guid(144dd65e9869aac45bbc7d526fb5134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Orb 1.mat using Guid(144dd65e9869aac45bbc7d526fb5134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a98a6ed1378fb98656e122c93136ebc') in 0.010187 seconds 
+  Import took 0.014011 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003101 seconds.
+Registered in 0.003492 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
+- Completed reload, in  1.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1217ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1786ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1534ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
+			SetupTypeCache (473ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.5 MB.
-System memory in use after: 99.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2667.
-Total: 2.729100 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.442100 ms  DeleteObjects: 0.014400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005374 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2669.
-Total: 2.744700 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.449000 ms  DeleteObjects: 0.017900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (295ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2671.
-Total: 2.736200 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.460500 ms  DeleteObjects: 0.014600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 2.711100 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.439200 ms  DeleteObjects: 0.015100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (830ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (304ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2675.
-Total: 2.824900 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.075500 ms MarkObjects: 2.545100 ms  DeleteObjects: 0.016000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (974ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 4.097200 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.791400 ms  DeleteObjects: 0.020900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.660 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1660ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1354ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (573ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (370ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (367ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2679.
-Total: 4.369800 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.438400 ms MarkObjects: 3.434000 ms  DeleteObjects: 0.021000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (879ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (312ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.0 MB.
+System memory in use after: 115.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 2.711300 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.073100 ms MarkObjects: 2.440200 ms  DeleteObjects: 0.014700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2817.
+Total: 3.579300 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.139500 ms MarkObjects: 3.132100 ms  DeleteObjects: 0.051600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -606,163 +1448,106 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
-Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2683.
-Total: 2.859400 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.575400 ms  DeleteObjects: 0.015100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002782 seconds.
+Registered in 0.003211 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
+- Completed reload, in  1.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1014ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (186ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.0 MB.
+System memory in use after: 115.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2819.
+Total: 2.909800 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.559200 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.8 MB.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.0 MB.
+System memory in use after: 115.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2685.
-Total: 2.655100 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.380200 ms  DeleteObjects: 0.018300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Domain Reload Profiling:
-	ReloadAssembly (927ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2687.
-Total: 2.709300 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.437100 ms  DeleteObjects: 0.014900 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 3.849700 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.186600 ms MarkObjects: 3.306900 ms  DeleteObjects: 0.053800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -777,106 +1562,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002801 seconds.
+Registered in 0.003211 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (937ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (283ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2689.
-Total: 2.675400 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.391100 ms  DeleteObjects: 0.017200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (826ms)
+		EndReloadAssembly (822ms)
 			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (306ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (189ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (181ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.8 MB.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.0 MB.
+System memory in use after: 115.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2691.
-Total: 2.799900 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.073500 ms MarkObjects: 2.515500 ms  DeleteObjects: 0.014500 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 3.214000 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.131400 ms MarkObjects: 2.798000 ms  DeleteObjects: 0.041000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -888,61 +1616,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003820 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.587 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1587ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1365ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (450ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (510ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.7 MB.
-System memory in use after: 99.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 6.134100 ms (FindLiveObjects: 0.710000 ms CreateObjectMapping: 0.270300 ms MarkObjects: 5.129500 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

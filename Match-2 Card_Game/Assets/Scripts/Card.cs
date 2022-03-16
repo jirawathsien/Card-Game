@@ -83,7 +83,7 @@ public class Card : MonoBehaviour
       if (other.CompareTag("Player"))
       {
          isTouchingCard = false;
-         ChangeCardAlpha(0.2f);
+         ChangeCardAlpha(0.45f);
       }
    }
 }

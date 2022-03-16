@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class CardManager : MonoBehaviour
 {
     public static CardManager instance;
 
-    public Card[] cards;
-
-    public int count;
+    [SerializeField] private PlayerMovement playerMovement;
+    
+    public List<Card> cards;
     
     private void Awake()
     {
@@ -15,44 +16,25 @@ public class CardManager : MonoBehaviour
 
     public void CheckMatch()
     {
-        count++;
-
-        if (count == 2)
+        if (cards.Count == 2)
         {
-            if (cards[0].hasRotated && cards[1].hasRotated)
+            if (cards[0].thisCardIndex != cards[1].thisCardIndex)
             {
-                Debug.Log("Is Matched");
-                
-                cards[0].gameObject.SetActive(false);
-                cards[1].gameObject.SetActive(false);
-               
-            } 
-            else if (cards[1].hasRotated && cards[2].hasRotated)
-            {
-                Debug.Log("not matched");
-                cards[1].FlipBack();
-                cards[2].FlipBack();
-                
-               
-            }
-            else if (cards[0].hasRotated && cards[3].hasRotated)
-            {
-                Debug.Log("not matched");
+                // not matched 
                 cards[0].FlipBack();
-                cards[3].FlipBack();
-                
+                cards[1].FlipBack();
+                playerMovement.Stunt();
             }
-            else if (cards[2].hasRotated && cards[3].hasRotated)
+            else
             {
-                Debug.Log("Is Matched");
-                
-                cards[2].gameObject.SetActive(false);
-                cards[3].gameObject.SetActive(false);
+                // matched
+                cards[0].Dissolve();
+                cards[1].Dissolve();
             }
-            
-            count = 0;
+            cards.Clear();
         }
+        
+       
     }
-    
-    
 }
+

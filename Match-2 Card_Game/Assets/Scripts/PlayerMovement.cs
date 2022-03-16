@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,7 +13,9 @@ public class PlayerMovement : MonoBehaviour
     
     private Vector3 moveVector;
     private CharacterController characterController;
-    
+
+    public TextMeshProUGUI playerFeedbackText;
+    private bool stopPlayer;
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -20,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if(stopPlayer) return;
+        
         HandleMovement();
     }
 
@@ -55,6 +60,23 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
         dashTrail.SetActive(false);
+    }
+
+
+    public void Stunt()
+    {
+        StartCoroutine(StuntCorutine());
+    }
+    
+    private IEnumerator StuntCorutine()
+    {
+        playerFeedbackText.text = "Bad!!";
+        stopPlayer = true;
+
+        yield return new WaitForSeconds(0.75f);
+        
+        stopPlayer = false;
+        playerFeedbackText.text = "Match all cards";
     }
 
 }

@@ -13,6 +13,11 @@ public class Timer : MonoBehaviour
 
       var fromSeconds = TimeSpan.FromSeconds(totalTime);
       timeText.text = $"{fromSeconds.Minutes:00}:{fromSeconds.Seconds:00}";
-
+      
+      if(totalTime <= 0f && !CardManager.instance.isGameOver)
+      {
+         CardManager.instance.isGameOver = true;
+         CardManager.instance.GameOver();
+      }
    }
 }
